@@ -5,7 +5,7 @@
 A simple Bash script that collects and displays essential server performance statistics such as CPU, memory, disk usage, and top processes.
 This is the repository for my scripting projects.
 
-Project URL: [https://github.com/aliyuatiku/scripting](https://github.com/aliyuatiku/scripting)
+Project URL:[https://github.com/aliyuatiku/scripting](https://github.com/aliyuatiku/scripting)
 
 It helps Linux users, DevOps engineers, or system administrators quickly assess system health and identify performance bottlenecks.
 
