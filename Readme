@@ -1,0 +1,34 @@
+# 🖥️ server-stats.sh
+
+A simple **Bash script** that collects and displays essential **server performance statistics** such as CPU, memory, disk usage, and top processes.  
+It helps Linux users, DevOps engineers, or sysadmins quickly assess system health and identify performance bottlenecks.
+
+---
+
+## 🚀 Features
+
+- ✅ **CPU Usage** — Displays overall CPU utilization (user, system, idle, and total)
+- ✅ **Memory Usage** — Shows total, used, and free memory with percentage breakdown
+- ✅ **Disk Usage** — Displays total disk space and usage statistics
+- ✅ **Top Processes** — Lists top 5 CPU-consuming and top 5 memory-consuming processes
+- ✅ **System Info** — Hostname, OS version, kernel, uptime, load average, logged-in users
+- ✅ **Failed Logins (Stretch Goal)** — Shows last 10 failed login attempts (if `lastb` is available)
+
+---
+
+## 📦 Requirements
+
+- A **Linux-based system** (Ubuntu, Debian, CentOS, Fedora, etc.)
+- **Bash shell** (version 4+)
+- **System utilities**:
+  - `top`, `ps`, `df`, `free`, `uptime`, `hostname`, `mpstat` (optional, from `sysstat` package)
+  - `lastb` (optional, from `util-linux`)
+
+---
+
+## ⚙️ Installation
+
+1. Clone or download the project:
+   ```bash
+   git clone https://github.com/<your-username>/server-stats.git
+   cd server-stats
