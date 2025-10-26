@@ -2,35 +2,36 @@
 
 # server-stats.sh
 
-A simple **Bash script** that collects and displays essential **server performance statistics** such as CPU, memory, disk usage, and top processes. This is the repository for my scripting projects.  
-Check it out here: [script](https://github.com/aliyuatiku/scripting)
+A simple Bash script that collects and displays essential server performance statistics such as CPU, memory, disk usage, and top processes.
+This is the repository for my scripting projects.
 
+Project URL: [https://github.com/aliyuatiku/scripting](https://github.com/aliyuatiku/scripting)
 
-It helps **Linux users**, **DevOps engineers**, or **system administrators** quickly assess system health and identify performance bottlenecks.
+It helps Linux users, DevOps engineers, or system administrators quickly assess system health and identify performance bottlenecks.
 
 ---
 
 ## Features
 
-* ✅ **CPU Usage** — Displays overall CPU utilization (user, system, idle, and total)
-* ✅ **Memory Usage** — Shows total, used, and free memory with percentage breakdown
-* ✅ **Disk Usage** — Displays total disk space and usage statistics
-* ✅ **Top Processes** — Lists top 5 CPU-consuming and top 5 memory-consuming processes
-* ✅ **System Info** — Hostname, OS version, kernel, uptime, load average, logged-in users
-* ✅ **Failed Logins (Stretch Goal)** — Shows last 10 failed login attempts (if `lastb` is available)
+* CPU Usage — Displays overall CPU utilization (user, system, idle, and total)
+* Memory Usage — Shows total, used, and free memory with percentage breakdown
+* Disk Usage — Displays total disk space and usage statistics
+* Top Processes — Lists top 5 CPU-consuming and top 5 memory-consuming processes
+* System Info — Hostname, OS version, kernel, uptime, load average, logged-in users
+* Failed Logins (Stretch Goal) — Shows last 10 failed login attempts (if `lastb` is available)
 
 ---
 
 ## Requirements
 
-*  A **Linux-based system** (Ubuntu, Debian, CentOS, Fedora, etc.)
-*  **Bash shell** (version 4+)
-*  **System utilities**:
+* A Linux-based system (Ubuntu, Debian, CentOS, Fedora, etc.)
+* Bash shell (version 4+)
+* System utilities:
 
-  * `top`, `ps`, `df`, `free`, `uptime`, `hostname`, `mpstat` *(optional, from `sysstat` package)*
-  * `lastb` *(optional, from `util-linux`)*
+  * `top`, `ps`, `df`, `free`, `uptime`, `hostname`, `mpstat` (optional, from `sysstat` package)
+  * `lastb` (optional, from `util-linux`)
 
-Install missing dependencies (if needed):
+Install missing dependencies if needed:
 
 ```bash
 sudo apt install sysstat util-linux -y        # Debian/Ubuntu
@@ -39,13 +40,13 @@ sudo dnf install sysstat util-linux -y        # Fedora/RHEL/CentOS
 
 ---
 
-##  Installation
+## Installation
 
 1. Clone or download the project:
 
    ```bash
-   git clone https://github.com/<your-username>/server-stats.git
-   cd server-stats
+   git clone https://github.com/aliyuatiku/scripting.git
+   cd scripting
    ```
 
 2. Make the script executable:
@@ -127,23 +128,24 @@ root     ssh:notty    192.168.1.23     Mon Oct 21 14:23 - 14:23  (00:00)
 
 This project helps you:
 
-* Understand **basic Linux performance commands**
-* Learn how to **parse and format output** in Bash
-* Gain insight into **system resource monitoring**
-* Build a foundation for **automated health checks**
+* Understand basic Linux performance commands
+* Learn how to parse and format output in Bash
+* Gain insight into system resource monitoring
+* Build a foundation for automated health checks
 
 ---
 
 ## Author
 
 **Aliyu Abubakar**
- [aliyuatikuabubakar7@gmail.com](mailto:aliyuatikuabubakar7@gmail.com)
- [GitHub](https://github.com/<your-username>) | [LinkedIn](https://linkedin.com/in/<your-link>)
+Email: [aliyuatikuabubakar7@gmail.com](mailto:aliyuatikuabubakar7@gmail.com)
+GitHub: [https://github.com/aliyuatiku](https://github.com/aliyuatiku)
+LinkedIn: [https://linkedin.com/in/aliyuatiku](https://linkedin.com/in/aliyuatiku)
 
 ---
 
 ## License
 
-This project is licensed under the **MIT License** — feel free to use and modify it as you wish.
+This project is licensed under the MIT License — feel free to use and modify it as you wish.
 
 ---
